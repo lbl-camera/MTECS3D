@@ -1,0 +1,21 @@
+# This is a configuration file for the MTECS3D program
+# Reduce the correlation data
+# The example/cross_correlation.hdf5 does not exist yet.
+CorrFile ../example/cross_correlation.hdf5
+Lmax 28
+FlatEwaldSphere 1
+Wavelength 0.0
+TruncationLimit 16 496
+#
+# The reduced correlation data
+#
+ReducedCorrFile ../example/reduced_cross_correlation.hdf5
+#
+# Extract the rotational diffusion coefficient
+#
+DeltaT    1.0
+Diameter  188.0
+MaxExtractIter   1000000
+Tol       1e-8
+#
+Verbose   1
