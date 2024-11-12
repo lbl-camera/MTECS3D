@@ -1,5 +1,7 @@
 # Multi-Tiered Estimation for Correlation Spectroscopy in 3D (MTECS3D)
 
+[![DOI](https://zenodo.org/badge/887082775.svg)](https://doi.org/10.5281/zenodo.14090991)
+
 _Multi-Tiered Estimation for Correlation Spectroscopy in 3D (MTECS3D)_ is an algorithm designed for estimating the rotational diffusion coefficient
 from the angular-temporal cross-correlation of X-ray photon correlation spectroscopy images.
 A relevant presentation can be [here](https://camera.lbl.gov/seminars) (titled _The Mathematics of Advanced Correlation Data Analysis: How to extract complex dynamics from next-generation correlation spectroscopy experiments_).
