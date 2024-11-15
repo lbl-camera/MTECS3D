@@ -11,7 +11,7 @@ A relevant presentation can be found [here](https://camera.lbl.gov/seminars) (ti
 Clone via
 
 ```
-git clone https://github.com/Tzi-Shi/MTECS3D.git
+git clone https://github.com/lbl-camera/MTECS3D.git
 ```
 
 ## Build
