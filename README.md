@@ -4,6 +4,7 @@
 
 _Multi-Tiered Estimation for Correlation Spectroscopy in 3D (MTECS3D)_ is an algorithm designed for estimating the rotational diffusion coefficient
 from the angular-temporal cross-correlation of X-ray photon correlation spectroscopy images.
+The algorithm is described detailedly in [our paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.214305). 
 A relevant presentation can be found [here](https://camera.lbl.gov/seminars) (titled _The Mathematics of Advanced Correlation Data Analysis: How to extract complex dynamics from next-generation correlation spectroscopy experiments_).
 
 ## Download
@@ -85,7 +86,7 @@ foo@bar:~$ h5ls -r example/cross-correlation.hdf5
 
 <!-- For testing, an example data file `example/cross-correlation.hdf5` is provided. The ground truth of the rotational diffusion coefficient is $0.5$. An estimate with relative errors within a few percent should be given by our algorithm. -->
 <!-- TODO upload the cross-correlation.hdf5 -->
-<!-- Please refer to [our paper](TODO) for more details on some of the parameters above. -->
+Please refer to [our paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.214305) for more details on the relevant parameters.
 
 ## Using as a library
 
@@ -187,14 +188,31 @@ This work is supported by the Center of Advanced Mathematics for Energy Research
 Please cite our papers using the following bibtex items:
 
 ```
-@article{hu2021cross,
-  title={Cross-correlation analysis of X-ray photon correlation spectroscopy to extract rotational diffusion coefficients},
-  author={Hu, Zixi and Donatelli, Jeffrey J and Sethian, James A},
-  journal={Proceedings of the National Academy of Sciences},
-  volume={118},
-  number={34},
-  pages={e2105826118},
-  year={2021},
-  publisher={National Acad Sciences}
+@article{PhysRevB.110.214305,
+  title = {Multitiered computational methodology for extracting three-dimensional rotational diffusion coefficients from x-ray photon correlation spectroscopy data without structural information},
+  author = {Hu, Zixi and Donatelli, Jeffrey J.},
+  journal = {Phys. Rev. B},
+  volume = {110},
+  issue = {21},
+  pages = {214305},
+  numpages = {20},
+  year = {2024},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevB.110.214305},
+  url = {https://link.aps.org/doi/10.1103/PhysRevB.110.214305}
+}
+
+@article{doi:10.1073/pnas.2105826118,
+author = {Zixi Hu  and Jeffrey J. Donatelli  and James A. Sethian },
+title = {Cross-correlation analysis of X-ray photon correlation spectroscopy to extract rotational diffusion coefficients},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {118},
+number = {34},
+pages = {e2105826118},
+year = {2021},
+doi = {10.1073/pnas.2105826118},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2105826118},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2105826118},
 }
 ```
